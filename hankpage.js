@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
   $("#trigger").click(function(){
-    alert("seago suck my balls")
+    $("#target").text("Hello world, suck my balls!");
   });
 
 
