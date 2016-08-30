@@ -1,8 +1,8 @@
 $( document ).ready(function() {
 
-  $("#danny-say").click(function(){
-    alert("seago suck my balls")
-  });
+  // $("#danny-say").click(function(){
+  //  alert("seago suck my balls")
+  // });
 
   var button = '#button';
   var textfield = '#textfield';
