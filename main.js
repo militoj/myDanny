@@ -12,8 +12,8 @@ $( document ).ready(function() {
     e.preventDefault();
     $(bubble).html(
       $(textfield).val();
-    );
-  }
+    )
+  });
 
   $(button).click(update_bubble);
 
