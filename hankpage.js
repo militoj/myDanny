@@ -1,6 +1,11 @@
 $( document ).ready(function() {
 
-  $("#form").submit(function(){
+var textfield = "#textfield";
+
+$console.log(textfield);
+
+  $("#form").submit(function(e){
+    e.preventDefault();
     alert("Deez Nuts");
   });
 
