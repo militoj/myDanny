@@ -1,12 +1,13 @@
 $( document ).ready(function() {
 
-var textfield = "#textfield";
+var textfield = $("#textfield").val();
 
-$console.log(textfield);
+
 
   $("#form").submit(function(e){
     e.preventDefault();
     alert("Deez Nuts");
+    console.log(textfield);
   });
 
 
