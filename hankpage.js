@@ -7,6 +7,7 @@ $( document ).ready(function() {
     e.preventDefault();
     var textfield = $("#textfield").val();
     $("#target").text(textfield);
+    $("#form")[0].reset();
   });
 
 
